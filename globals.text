@@ -1,0 +1,42 @@
+all our application does not have to be
+in 1 file, we can split the code in modules.
+
+!---- wouldnt it make sense if names would be seperate and functions would be in seperate files, and we could access them throghout the application, and that way we would have smaller code and access to everything. modules 
+
+//Modules 
+Modules -> Encapsulated Code(only share what we want(minimum))
+
+
+node uses CommonJs library underthe hood. every file in node is a module.
+
+
+----------------
+to share something we must use module.exports = {}
+object and we can put in es6 syntax in there, its just an object. reason to use object is because we have multiple things, there are multiple ways to do it.
+
+
+to access them i need to do -> require
+const names = require('path')
+
+
+console.log(module)
+
+//modules are already setup, every file is a module
+
+
+to export we do module.exports
+and to do imports we do require('path')
+
+end at 43.39
+
+-----------------------------------
+another way to export called "export as you go" ->>>>
+module exports is an object.
+the import name is up to us
+syntax is different than names, but its still the same
+---------------------
+7 - if we have a function inside of a module that we invoked it will run as long as we require it without a name.
+when we import a module, we basically invoke it.
+
+//we basically covered modules and syntax.
+// some smart people created way more better modules
